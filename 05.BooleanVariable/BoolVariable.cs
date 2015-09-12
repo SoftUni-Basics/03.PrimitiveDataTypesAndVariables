@@ -9,7 +9,7 @@ class BoolVariable
     static void Main()
     {
         Console.WriteLine("Please follow some of examples for your answer:\r\n\t\" y, yes, n, no \"");
-        Console.Write("\r\nYour gender is Female?\r\nAnswer:    ");
+        Console.Write("\r\nYour gender is Female?\r\nAnswer:     ");
         string answer = Console.ReadLine();
 
         bool isFemale = true;
