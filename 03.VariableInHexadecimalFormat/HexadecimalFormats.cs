@@ -9,6 +9,6 @@ class HexadecimalFormats
     static void Main()
     {
         int hexa = 0xFE;
-        Console.WriteLine("\"0x{0:X}\" == {0}", hexa);
+        Console.WriteLine(" \"0x{0:X}\" == {0} ", hexa);
     }
 }
