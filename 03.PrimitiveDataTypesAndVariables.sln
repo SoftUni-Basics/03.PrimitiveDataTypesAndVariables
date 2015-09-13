@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.BankAccountData", "11.Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.NullValuesArithmetic", "12.NullValuesArithmetic\12.NullValuesArithmetic.csproj", "{1543B0A6-CDC2-467B-9C81-7BEFF7BDA653}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.ComparingFloats", "13.ComparingFloats\13.ComparingFloats.csproj", "{D1CEDC32-04D1-4C57-A899-2C41F3117D91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{1543B0A6-CDC2-467B-9C81-7BEFF7BDA653}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1543B0A6-CDC2-467B-9C81-7BEFF7BDA653}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1543B0A6-CDC2-467B-9C81-7BEFF7BDA653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CEDC32-04D1-4C57-A899-2C41F3117D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CEDC32-04D1-4C57-A899-2C41F3117D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CEDC32-04D1-4C57-A899-2C41F3117D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CEDC32-04D1-4C57-A899-2C41F3117D91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
