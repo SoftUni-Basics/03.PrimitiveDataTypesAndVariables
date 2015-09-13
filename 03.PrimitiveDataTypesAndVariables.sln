@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.ComparingFloats", "13.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.PrintTheASCIITable", "14.PrintTheASCIITable\14.PrintTheASCIITable.csproj", "{94FC9082-5489-466D-8D95-E2C9642EA1A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.TorrentPirate", "15.TorrentPirate\15.TorrentPirate.csproj", "{06BADEAF-37BE-4D89-9936-58B4A0473054}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{94FC9082-5489-466D-8D95-E2C9642EA1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94FC9082-5489-466D-8D95-E2C9642EA1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94FC9082-5489-466D-8D95-E2C9642EA1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06BADEAF-37BE-4D89-9936-58B4A0473054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06BADEAF-37BE-4D89-9936-58B4A0473054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06BADEAF-37BE-4D89-9936-58B4A0473054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06BADEAF-37BE-4D89-9936-58B4A0473054}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
