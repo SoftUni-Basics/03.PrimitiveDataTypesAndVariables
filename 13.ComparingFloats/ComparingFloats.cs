@@ -6,20 +6,20 @@ class ComparingFloats
 {
     static void Main()
     {
-        double eps = 0.000001;
+        decimal eps = 0.000001m;
 
-        double[] arrayA = {  5.3, 5.00000001, 5.00000005, -0.0000007, -4.999999, 4.999999 };
-        double[] arrayB = { 6.01, 5.00000003, 5.00000001, 0.00000007, -4.999998, 4.999998 };
+        decimal[] arrayA = {  5.3m, 5.00000001m, 5.00000005m, -0.0000007m, -4.999999m, 4.999999m };
+        decimal[] arrayB = { 6.01m, 5.00000003m, 5.00000001m, 0.00000007m, -4.999998m, 4.999998m };
 
         for (int index = 0; index < arrayA.Length; index++)
         {
-            double difference = Math.Abs(arrayA[index] - arrayB[index]);
+            decimal difference = Math.Abs(arrayA[index] - arrayB[index]);
 
-            if (Math.Floor(difference * 1000000) == (eps * 1000000))
+            if (difference == eps)
             {
                 Console.WriteLine("false:\t" + "Border case. The difference {0:0.########} == eps.\r\n\tWe consider the numbers are different.", difference);
             }
-            else if (Math.Floor(difference * 1000000) < 1)
+            else if (difference < eps)
             {
                 Console.WriteLine("True:\t" + "The difference {0:0.########} < eps", difference);   
             }
